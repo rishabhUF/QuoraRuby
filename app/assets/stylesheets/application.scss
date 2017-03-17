@@ -1,0 +1,28 @@
+@import "materialize/components/color";
+$primary-color: color("blue", "lighten-2") !default;
+@import "materialize";
+@import "pages.scss";
+
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+#nav-logo{
+  margin-left: 5%;
+}
+
+#fab{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
+  padding-bottom: 5%;
+}
+
+.upvotes_count{
+  text-align: center;
+}
